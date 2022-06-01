@@ -1,0 +1,65 @@
+51077  >  443 [RST, ACK] Seq=1 Ack=1 Win=0 Len=0
+57368  >  443 [FIN, ACK] Seq=1 Ack=1 Win=1021 Len=0
+57361  >  443 [FIN, ACK] Seq=1 Ack=1 Win=513 Len=0
+57369  >  443 [FIN, ACK] Seq=1 Ack=1 Win=510 Len=0
+57362  >  443 [FIN, ACK] Seq=1 Ack=1 Win=511 Len=0
+57369  >  443 [RST, ACK] Seq=2 Ack=32 Win=0 Len=0
+57361  >  443 [RST, ACK] Seq=2 Ack=32 Win=0 Len=0
+443  >  57369 [FIN, ACK] Seq=32 Ack=2 Win=501 Len=0
+443  >  57361 [FIN, ACK] Seq=32 Ack=2 Win=501 Len=0
+443  >  57368 [FIN, ACK] Seq=1 Ack=2 Win=2053 Len=0
+57368  >  443 [ACK] Seq=2 Ack=2 Win=1021 Len=0
+443  >  57362 [FIN, ACK] Seq=1 Ack=2 Win=1022 Len=0
+57362  >  443 [ACK] Seq=2 Ack=2 Win=511 Len=0
+51082  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+443  >  51082 [SYN, ACK] Seq=0 Ack=1 Win=26883 Len=0 MSS=1460 SACK_PERM=1 WS=256
+51082  >  443 [ACK] Seq=1 Ack=1 Win=131328 Len=0
+443  >  51082 [ACK] Seq=1 Ack=550 Win=28160 Len=0
+443  >  51082 [ACK] Seq=1461 Ack=550 Win=28160 Len=1460 [TCP segment of a reassembled PDU]
+51082  >  443 [ACK] Seq=550 Ack=2921 Win=131328 Len=0
+443  >  51082 [ACK] Seq=3662 Ack=999 Win=29184 Len=0
+51082  >  443 [ACK] Seq=999 Ack=4651 Win=131328 Len=0
+51083  >  443 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM=1
+443  >  51083 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=1440 WS=256 SACK_PERM=1
+51083  >  443 [ACK] Seq=1 Ack=1 Win=132352 Len=0
+443  >  51083 [ACK] Seq=1 Ack=215 Win=525312 Len=1460 [TCP segment of a reassembled PDU]
+443  >  51083 [ACK] Seq=1461 Ack=215 Win=525312 Len=1460 [TCP segment of a reassembled PDU]
+51083  >  443 [ACK] Seq=215 Ack=2921 Win=132352 Len=0
+443  >  51083 [ACK] Seq=2921 Ack=215 Win=525312 Len=1460 [TCP segment of a reassembled PDU]
+51083  >  443 [ACK] Seq=215 Ack=4403 Win=132352 Len=0
+443  >  51083 [ACK] Seq=4454 Ack=2772 Win=525568 Len=0
+51083  >  443 [FIN, ACK] Seq=2772 Ack=4863 Win=131840 Len=0
+443  >  51083 [FIN, ACK] Seq=4863 Ack=2773 Win=525568 Len=0
+51083  >  443 [ACK] Seq=2773 Ack=4864 Win=131840 Len=0
+51074  >  443 [ACK] Seq=1 Ack=1 Win=508 Len=1 [TCP segment of a reassembled PDU]
+443  >  51074 [ACK] Seq=1 Ack=2 Win=136 Len=0 SLE=1 SRE=2
+57317  >  443 [ACK] Seq=1 Ack=1 Win=514 Len=1 [TCP segment of a reassembled PDU]
+60776  >  3000 [PSH, ACK] Seq=1 Ack=1 Win=512 Len=1
+3000  >  60776 [PSH, ACK] Seq=1 Ack=2 Win=4096 Len=1
+60776  >  3000 [ACK] Seq=2 Ack=2 Win=512 Len=0
+57318  >  443 [ACK] Seq=1 Ack=1 Win=515 Len=1 [TCP segment of a reassembled PDU]
+443  >  51075 [FIN, ACK] Seq=32 Ack=1 Win=35 Len=0
+51075  >  443 [ACK] Seq=1 Ack=33 Win=508 Len=0
+51075  >  443 [FIN, ACK] Seq=32 Ack=33 Win=508 Len=0
+443  >  51075 [RST] Seq=33 Win=0 Len=0
+443  >  51075 [RST] Seq=33 Win=0 Len=0
+80  >  58203 [PSH, ACK] Seq=1 Ack=1 Win=790 Len=41
+58203  >  80 [PSH, ACK] Seq=1 Ack=42 Win=516 Len=339
+80  >  58203 [ACK] Seq=42 Ack=340 Win=798 Len=0
+80  >  58203 [PSH, ACK] Seq=42 Ack=340 Win=798 Len=508
+58203  >  80 [ACK] Seq=340 Ack=550 Win=514 Len=0
+80  >  58203 [PSH, ACK] Seq=550 Ack=340 Win=798 Len=41
+58203  >  80 [PSH, ACK] Seq=340 Ack=591 Win=514 Len=339
+80  >  58203 [ACK] Seq=591 Ack=679 Win=806 Len=0
+80  >  58203 [PSH, ACK] Seq=591 Ack=679 Win=806 Len=1180
+58203  >  80 [ACK] Seq=679 Ack=1771 Win=517 Len=0
+80  >  58203 [PSH, ACK] Seq=1771 Ack=679 Win=806 Len=41
+58203  >  80 [PSH, ACK] Seq=679 Ack=1812 Win=517 Len=339
+80  >  58203 [ACK] Seq=1812 Ack=1018 Win=815 Len=0
+80  >  58203 [ACK] Seq=1812 Ack=1018 Win=815 Len=1424
+80  >  58203 [PSH, ACK] Seq=3236 Ack=1018 Win=815 Len=892
+58203  >  80 [ACK] Seq=1018 Ack=4128 Win=517 Len=0
+443  >  51082 [FIN, ACK] Seq=4651 Ack=999 Win=29184 Len=0
+51082  >  443 [ACK] Seq=999 Ack=4652 Win=131328 Len=0
+51082  >  443 [FIN, ACK] Seq=999 Ack=4652 Win=131328 Len=0
+443  >  51082 [ACK] Seq=4652 Ack=1000 Win=29184 Len=0

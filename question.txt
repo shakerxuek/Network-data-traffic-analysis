@@ -1,0 +1,4 @@
+1.seems like the first file is already ordered？
+2.if we take minute as interval there gonna be too many graphs？how to achieve timestamp？
+3.I noticed that some lines do not have durations，means 0？
+4.for part 3 we need to draw graph based on bytes sent and bytes received, draw their pdf and CDF in one graph？
